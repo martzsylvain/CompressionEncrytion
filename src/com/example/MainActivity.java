@@ -11,5 +11,6 @@ public class MainActivity extends Activity
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
+        Person person = new Person("Martinez", "Sylvain", "0553490732", "6 Allee du clot de pelle bourrut", "0987654321", "1234567890");
     }
 }
